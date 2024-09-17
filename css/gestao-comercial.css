@@ -62,6 +62,8 @@ nav ul li a:hover {
     display: none;
 }
 
+
+
 @media (max-width: 600px) {
     nav ul {
         position: absolute;
@@ -129,10 +131,19 @@ main h1{
      color: var(--cor-1);
 }
 
-.apertodemao {
+main li {
+    font-size: 1.5vw;
+    color: var(--cor-3);
+    align-self: flex-start;
+    list-style: disc;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.img-descritiva {
     margin-top: 100px;
     width: 60vw;
-    height: 100%;
+    height: 500px;
 }
 
 main h2 {
@@ -505,6 +516,17 @@ footer {
         .rodape-contatos h2 {
             font-size: 18px;
         }
+
+        main li {
+            font-size: 2vw;
+        }
+        
+        .img-descritiva {
+            height: 40vh;
+            width: 61vw;
+            margin-top: 50px;
+        }
+
     
         #sobre-nos {
             height: 182px;
@@ -543,6 +565,16 @@ main h1 {
     font-size: 1.6rem;
     width: 300px;
     text-align: center;
+}
+
+main li {
+    font-size: 2.2vw;
+}
+
+.img-descritiva {
+    height: 35vh;
+    width: 61vw;
+    margin-top: 50px;
 }
 
 main h2 {
@@ -697,6 +729,16 @@ main h2 {
         font-size: 14px;
     }
 
+    main li {
+        font-size: 3.5vw;
+    }
+    
+    .img-descritiva {
+        height: 30vh;
+        width: 61vw;
+        margin-top: 50px;
+    }
+
     main p {
         font-size: 1.3rem;
     }
@@ -752,6 +794,16 @@ main h2 {
         border-right: 0;
         border-bottom: var(--cor-3) 1px solid;
         align-items: center;
+    }
+
+    main li {
+        font-size: 2.7vw;
+    }
+    
+    .img-descritiva {
+        height: 30vh;
+        width: 61vw;
+        margin-top: 50px;
     }
 
     .rodape-infos h1 {
@@ -816,6 +868,16 @@ main h2 {
     .logo-rodape img {
         width: 125px;
         height: 125px;
+    }
+
+    main li {
+        font-size: 4vw;
+    }
+    
+    .img-descritiva {
+        height: 25vh;
+        width: 65vw;
+        margin-top: 50px;
     }
 
     .logo-rodape {

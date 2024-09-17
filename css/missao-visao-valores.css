@@ -62,6 +62,8 @@ nav ul li a:hover {
     display: none;
 }
 
+
+
 @media (max-width: 600px) {
     nav ul {
         position: absolute;
@@ -129,10 +131,25 @@ main h1{
      color: var(--cor-1);
 }
 
-.apertodemao {
+main li {
+    font-size: 1.5vw;
+    color: var(--cor-3);
+    align-self: flex-start;
+    list-style: disc;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.img-descritiva {
     margin-top: 100px;
-    width: 60vw;
-    height: 100%;
+    width: 50vw;
+    height: 400px;
+}
+
+.img-icon {
+    margin-top: 0px;
+    width: 50vw;
+    height: 400px;
 }
 
 main h2 {
@@ -141,9 +158,30 @@ main h2 {
     color: var(--cor-2);
 }
 
+main h3 {
+    font-size: 2vw;
+    color: var(--cor-3);
+    align-self: flex-start;
+    list-style: disc;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.p-encurtado-1 {
+    margin-right: 12%;
+}
+
+.p-encurtado-2 {
+    margin-right: 19%;
+}
+
+.p-encurtado {
+    margin-right: 4.5%;
+}
+
 main p {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     font-size: 2vw;
     width: 80vw;
 }
@@ -342,7 +380,9 @@ footer {
         margin-top: 50px;
     }
 
-
+    main li {
+        font-size: 2vw;
+    }
 
     .logo-rodape img {
         width: 150px;
@@ -405,6 +445,7 @@ footer {
     .rodape-contatos {
         margin-left: 30px;
     }
+    
 
     .rodape-infos {
         gap: 25px;
@@ -634,7 +675,19 @@ main h2 {
     }
 
     main h2 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        margin-top: 20px;
+    }
+    
+    .img-descritiva {
+        height: 30vh;
+        width: 70vw;
+        margin-top: 20px;
+    }
+    
+    .img-icon {
+        height: 30vh;
+        width: 70vw;
     }
 
     .logo-rodape img {
@@ -724,7 +777,18 @@ main h1 {
 
 main h2 {
     font-size: 1.2rem;
-    margin-top: 50px;
+    margin-top: 20px;
+}
+
+.img-descritiva {
+    height: 30vh;
+    width: 70vw;
+    margin-top: 20px;
+}
+
+.img-icon {
+    height: 30vh;
+    width: 70vw;
 }
 
     .logo-rodape img {
@@ -810,7 +874,19 @@ main h2 {
     }
 
     main h2 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        margin-top: 20px;
+    }
+    
+    .img-descritiva {
+        height: 25vh;
+        width: 70vw;
+        margin-top: 20px;
+    }
+    
+    .img-icon {
+        height: 40vh;
+        width: 70vw;
     }
 
     .logo-rodape img {

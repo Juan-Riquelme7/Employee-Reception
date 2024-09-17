@@ -62,6 +62,8 @@ nav ul li a:hover {
     display: none;
 }
 
+
+
 @media (max-width: 600px) {
     nav ul {
         position: absolute;
@@ -123,22 +125,51 @@ main {
     align-items: center;
 }
 
+.container {
+    margin-top: 70px;
+}
+
+iframe {
+    width: 61vw;
+    height: 70vh;
+}
+
 main h1{
     font-size: 3vw;
      margin-top: 7vw;
      color: var(--cor-1);
 }
 
-.apertodemao {
+.vantagens {
+    width: 60vw;
+    text-align: center;
+}
+
+.lista {
+    gap: 3px;
+}
+
+main li {
+    font-size: 1.8vw;
+    color: var(--cor-3);
+    align-self: flex-start;
+    list-style: disc;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.img-descritiva {
     margin-top: 100px;
     width: 60vw;
-    height: 100%;
+    height: 500px;
 }
 
 main h2 {
     margin-top: 5vw;
     font-size: 2.5vw;
     color: var(--cor-2);
+    width: 70vw;
+    text-align: center;
 }
 
 main p {
@@ -342,8 +373,6 @@ footer {
         margin-top: 50px;
     }
 
-
-
     .logo-rodape img {
         width: 150px;
         height: 150px;
@@ -467,11 +496,19 @@ footer {
             width: 150px;
             height: 150px;
         }
+
+        .img-descritiva {
+            height: 40vh;
+        }
     
         .logo-rodape {
             margin-bottom: 40px;
             display: flex;
             margin-right: 30px;
+        }
+
+        iframe {
+            height: 40vh;
         }
     
         .rodape-contatos {
@@ -545,6 +582,22 @@ main h1 {
     text-align: center;
 }
 
+.img-descritiva {
+    height: 40vh;
+}
+
+main li {
+    font-size: 2.5vw;
+}
+
+.img-descritiva {
+    height: 300px;
+}
+
+iframe {
+    width: 5vw;
+}
+
 main h2 {
     font-size: 1.2rem;
     margin-top: 50px;
@@ -610,6 +663,11 @@ main h2 {
         font-size: 14px;
     }
 
+    iframe {
+        width: 61vw;
+        height: 40vh;
+    }
+
 }
 
 @media (min-width: 480px) and (max-width: 600px) {
@@ -652,6 +710,11 @@ main h2 {
         margin: 0;
         align-items: center;
         text-align: center;
+    }
+
+    .img-descritiva {
+        height: 30vh;
+        margin-top: 30px;
     }
 
     .rodape-infos {
@@ -700,6 +763,16 @@ main h2 {
     main p {
         font-size: 1.3rem;
     }
+
+    iframe {
+        width: 70vw;
+        height: 30vh;
+    }
+
+    main li {
+        font-size: 2.5vw;
+    }
+    
 }
 
 @media (min-width: 600px) and (max-width: 768px) {
@@ -716,6 +789,16 @@ main p {
     font-size: 1.2rem;
 }
 
+iframe {
+    width: 61vw;
+    height: 30vh;
+}
+
+.img-descritiva {
+    height: 40vh;
+    margin-top: 30px;
+}
+
 main h1 {
     font-size: 1.6rem;
     width: 300px;
@@ -730,6 +813,10 @@ main h2 {
     .logo-rodape img {
         width: 150px;
         height: 150px;
+    }
+
+    main li {
+        font-size: 2.3vw;
     }
 
     .logo-rodape {
@@ -803,6 +890,10 @@ main h2 {
         font-size: 1.3rem;
     }
 
+    main li {
+        font-size: 2.5vw;
+    }
+
     main h1 {
         font-size: 1.5rem;
         width: 300px;
@@ -811,6 +902,11 @@ main h2 {
 
     main h2 {
         font-size: 1.3rem;
+    }
+
+    iframe {
+        width: 75vw;
+        height: 25vh;
     }
 
     .logo-rodape img {
@@ -844,6 +940,11 @@ main h2 {
         font-size: 18px;
     }
     
+    .img-descritiva {
+        height: 30vh;
+        margin-top: 30px;
+    }
+
     .rodape-infos h2 {
         font-family: "Raleway Medium", "Raleway", sans-serif;
         font-weight: 500;
