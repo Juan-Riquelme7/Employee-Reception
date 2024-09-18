@@ -125,6 +125,10 @@ main {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 main h1{
     font-size: 3vw;
      margin-top: 7vw;

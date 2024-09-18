@@ -140,6 +140,10 @@ main li {
     margin-top: 2%;
 }
 
+a {
+    text-decoration: none;
+}
+
 .img-descritiva {
     margin-top: 100px;
     width: 50vw;
